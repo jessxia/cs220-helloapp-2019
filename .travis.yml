@@ -1,0 +1,12 @@
+branches:
+  only:
+    - master
+
+language: python
+
+compiler: gcc
+
+stage: test
+
+script:
+  - pytest

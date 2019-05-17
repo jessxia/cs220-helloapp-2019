@@ -7,6 +7,5 @@ language: python
 compiler: gcc
 
 stage: test
-
 script:
   - pytest
